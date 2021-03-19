@@ -1,12 +1,12 @@
 :root {
-  --primary-color: #693c72;
-  --secondary-color: #c15050;
-  --alternative-color: #d97642;
+  --primary-color: #c79ecf;
+  --secondary-color: #7e6bc4;
+  --alternative-color: #679b9b;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  background-color: black;
+  font-family: "Varela Round", sans-serif;
+  background-color: #fef0ff;
 }
 
 h1 {
@@ -22,7 +22,7 @@ a {
 }
 
 p {
-  color: white;
+  color: #3b3b3f;
 }
 
 .img-fluid {
@@ -37,4 +37,28 @@ p {
 .weather-reactjs-project {
   border: 1px solid var(--primary-color);
   border-radius: 4px;
+}
+
+.bt-style {
+  background-color: var(--primary-color);
+}
+
+.projects {
+  color: var(--secondary-color);
+}
+
+.email-contact i {
+  font-size: 40px;
+}
+
+.email-contact a {
+  color: var(--primary-color);
+}
+
+.linkedin-contact i {
+  font-size: 45px;
+}
+
+.linkedin-contact a {
+  color: var(--primary-color);
 }
