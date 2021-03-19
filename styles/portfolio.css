@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #693c72;
+  --secondary-color: #c15050;
+  --links-color: #d97642;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
+a {
+  color: var(--secondary-color);
+}
+
+p {
+  color: white;
+}
