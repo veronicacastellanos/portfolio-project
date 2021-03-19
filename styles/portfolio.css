@@ -1,7 +1,7 @@
 :root {
   --primary-color: #693c72;
   --secondary-color: #c15050;
-  --links-color: #d97642;
+  --alternative-color: #d97642;
 }
 
 body {
@@ -23,4 +23,18 @@ a {
 
 p {
   color: white;
+}
+
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+}
+.weather-vanillajs-project {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.weather-reactjs-project {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
 }
