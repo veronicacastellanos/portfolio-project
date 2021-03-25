@@ -5,20 +5,22 @@
 }
 
 body {
-  font-family: "Varela Round", sans-serif;
-  background-color: #fef0ff;
+  font-family: "Spartan", sans-serif;
 }
 
 h1 {
   color: var(--primary-color);
+  font-weight: bold;
 }
 
 h2 {
   color: var(--secondary-color);
+  font-weight: bolder;
 }
 
 a {
   color: var(--secondary-color);
+  font-weight: bold;
 }
 
 p {
@@ -28,9 +30,14 @@ p {
 }
 
 .img-fluid {
-  max-width: 50%;
+  max-width: 20%;
   height: auto;
 }
+
+.about-header {
+  font-size: 25px;
+}
+
 .weather-vanillajs-project {
   border: 1px solid var(--primary-color);
   border-radius: 4px;
@@ -43,6 +50,10 @@ p {
 
 .bt-style {
   background-color: var(--primary-color);
+}
+
+.work {
+  max-width: 50%;
 }
 
 .projects {
