@@ -33,15 +33,9 @@ nav {
   background-color: #e8d0ef;
 }
 
-@media (max-width: 600px) {
-  .img-fluid {
-    max-width: 50%;
-  }
-}
-
-.nav-link {
-  font-weight: normal;
-  transition: all 100ms ease-in-out;
+.navbar-light .navbar-nav .nav-link {
+  color: var(--secondary-color);
+  font-weight: lighter;
 }
 
 .btn-about :hover {
