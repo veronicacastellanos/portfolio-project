@@ -20,13 +20,34 @@ h2 {
 
 a {
   color: var(--secondary-color);
-  font-weight: bold;
+  text-decoration: none;
 }
 
 p {
   color: #3b3b3f;
   font-size: 14px;
   text-align: justify;
+}
+
+nav {
+  background-color: #e8d0ef;
+}
+
+@media (max-width: 600px) {
+  .img-fluid {
+    max-width: 50%;
+  }
+}
+
+.nav-link {
+  font-weight: normal;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-about :hover {
+  color: white;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 
 .img-fluid {
@@ -36,6 +57,12 @@ p {
 
 .about-header {
   font-size: 25px;
+}
+
+.btn-projects :hover {
+  color: white;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 
 .weather-vanillajs-project {
@@ -58,6 +85,12 @@ p {
 
 .projects {
   color: var(--secondary-color);
+}
+
+.btn-app :hover {
+  color: white;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 
 .email-contact i {
