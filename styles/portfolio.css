@@ -30,7 +30,7 @@ p {
 }
 
 nav {
-  background-color: #e8d0ef;
+  background-color: #f9f7fe;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -101,4 +101,26 @@ nav {
 
 .linkedin-contact a {
   color: var(--primary-color);
+}
+
+footer .contact-box {
+  background-color: #f9f7fe;
+}
+
+footer .footer-h2 {
+  color: var(--primary-color);
+}
+
+footer .btn-footer :hover {
+  color: white;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+footer .email-footer {
+  font-size: 15px;
+}
+
+footer .github-link {
+  font-size: 35px;
 }
