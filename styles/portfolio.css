@@ -1,7 +1,6 @@
 :root {
   --primary-color: #c79ecf;
   --secondary-color: #7e6bc4;
-  --alternative-color: #679b9b;
 }
 
 body {
@@ -73,18 +72,22 @@ nav {
   background-color: var(--primary-color);
 }
 
-.work {
-  max-width: 50%;
+.projects-header {
+  color: var(--secondary-color);
 }
 
-.projects {
-  color: var(--secondary-color);
+.projects-image {
+  max-width: 50%;
 }
 
 .btn-app :hover {
   color: white;
   text-decoration: none;
   transition: all 100ms ease-in-out;
+}
+
+.contact-header {
+  color: var(--secondary-color);
 }
 
 .email-contact i {
